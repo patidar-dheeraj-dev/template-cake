@@ -1,0 +1,724 @@
+* {
+	font-family: "Playfair Display";
+}
+
+body {
+	padding-top: 0;
+	padding-bottom: 0;
+}
+
+.bg_container {
+	background-color: #EAD9D2;
+	min-height: auto;
+	height: auto;
+}
+
+header {
+	height: 200px;
+	background-color: #C58F76;
+	width: 88%;
+	border-radius: 0px 0px 75px 75px;
+	box-shadow: 0px 25px 40px #69696991;
+	margin-bottom: 100px;
+}
+
+.logo {
+	font-family: "Roboto Slab";
+	font-size: 60px;
+	color: white;
+	display: flex;
+	justify-content: center;
+	height: 75%;
+	padding-top: 60px;
+	align-items: center;
+}
+
+.nav-link {
+	color: white !important;
+
+}
+
+.bg_secondrow {
+	height: auto;
+	background-image: url('../image/ice_cream_shake2.png');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding-bottom: 20px;
+}
+
+.bg2img {
+	border-radius: 45px 0px 0px 45px;
+	height: auto;
+	max-width: 387px;
+	background-color: #FFF;
+	margin-right: 0;
+	padding-bottom: 10px;
+}
+
+
+.card-header p {
+	font-weight: 600;
+}
+
+.card-body img {
+	height: 145px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.card-body figcaption {
+	font-weight: 500;
+}
+
+.card-footer .plus {
+	border-radius: 0px 50px 50px 0px;
+	background-color: #C58F76;
+	margin: 0;
+	width: 20px;
+	padding: 5px;
+	margin-left: 5px;
+}
+
+
+.card-footer .minus {
+	border-radius: 50px 0px 0px 50px;
+	background-color: #C58F76;
+	margin: 0;
+	width: 20px;
+	padding: 5px;
+	margin-right: 5px;
+}
+
+.card-footer {
+	margin: 0;
+	padding: 0;
+}
+
+.head {
+	margin-top: 80px;
+}
+
+.head h2 {
+	font-size: 40px;
+	font-family: "Playfair Display";
+	font-weight: bold;
+
+}
+
+.secHead p {
+	font-size: 35px;
+	color: rgba(41, 41, 41, 0.844);
+	font-family: "Playfair Display";
+}
+
+.selectOption {
+	max-width: 350px;
+	margin-top: 15px;
+}
+
+.selectOption select {
+	font-family: "Playfair Display";
+	border-radius: 50px;
+	font-weight: 600;
+	padding: 10px;
+}
+
+.form-select {
+	background-image: url("/image/select-svg.svg") !important;
+	background-repeat: no-repeat;
+	background-size: 15px;
+}
+
+.nextDiv {
+	margin-top: 15px;
+}
+
+.nextDiv button {
+	background: #C58F76;
+	width: 200px;
+	color: white;
+	font-family: "Playfair Display";
+	font-size: 23px;
+	padding: 3px;
+	font-weight: 600;
+	border-radius: 50px;
+}
+
+.firstPara {
+	margin-top: 15px;
+}
+
+.firstPara p {
+	font-size: 28px;
+	font-family: "Playfair Display";
+	text-decoration: underline;
+}
+
+.secPara {
+	font-size: 10px;
+	color: gray;
+}
+
+.secSection {
+	max-width: 70vw;
+	background-color: rgb(255, 255, 255);
+	margin-top: 230px;
+	border-radius: 100px;
+	/* Multi-layered shadow */
+	box-shadow:
+		-20px 10px 30px rgba(0, 0, 0, 0.15),
+		-20px 20px 60px rgba(0, 0, 0, 0.1);
+
+}
+
+
+.secSectionCol2 img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.sechead2 p {
+	font-size: 27px;
+	color: rgba(19, 19, 19, 0.844);
+	font-family: "Playfair Display";
+	margin-bottom: 5px;
+}
+
+.firstPara2 {
+	margin-top: 20px;
+}
+
+.firstPara2 p {
+	font-size: 18px;
+	font-family: "Playfair Display";
+	text-decoration: underline;
+}
+
+.bgFourth {
+	background: url("../image/banner2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	width: 100%;
+	height: 850px;
+}
+
+.head3 p {
+	font-size: 65px;
+	font-family: "Playfair Display";
+	margin-bottom: 5px;
+}
+
+.head4 p {
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.head5 p {
+	font-size: 23px;
+	font-weight: 500;
+}
+
+.form-control {
+	background: white;
+	max-width: 270px;
+	border: none;
+	border-radius: 50px;
+	margin-bottom: 10px;
+}
+
+.form-control::placeholder {
+	color: black;
+	font-weight: 600;
+	padding: 12px;
+	font-family: "Playfair Display";
+}
+
+.signupDiv {
+	max-width: 270px;
+}
+
+.signupBtn {
+	width: 100%;
+	padding: 5px;
+	color: white;
+	background: #C58F76;
+	border-radius: 50px;
+	border: none;
+	font-size: 18px;
+	font-weight: 600;
+	font-family: "Playfair Display";
+}
+
+.forthSecCol {
+	margin-top: 130px;
+}
+
+.fifthSection {
+	max-width: 60vw;
+	margin-top: 230px;
+	border-radius: 115px;
+	background: #C58F76;
+	overflow: hidden;
+}
+
+.fifthSectionCol1 {
+	margin-left: 0;
+	padding-left: 0;
+}
+
+.fifthSectionCol1 img {
+	height: 100%;
+	width: 100%;
+}
+
+.logo1 h2 {
+	font-family: "Roboto Slab";
+	font-size: 55px;
+	font-weight: 400;
+	color: white;
+	margin: 30px;
+	margin-bottom: 0;
+}
+
+.logo1 p {
+	font-family: "Roboto Slab";
+	font-size: 30px;
+	font-weight: 700;
+	margin-top: 0;
+	margin-left: 30px;
+}
+
+.menuBody {
+	margin-right: 60px;
+}
+
+.menuBody ul li {
+	list-style-type: none;
+}
+
+.itemList {
+	font-size: 18px;
+	font-family: "Playfair Display";
+	margin-top: 10px;
+}
+
+.spanPrice {
+	font-family: "Playfair Display";
+	margin-left: 5px;
+}
+
+.spanLorem {
+	font-size: 10px;
+	width: 200px;
+}
+
+.menuHeader {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.menuFooter {
+	background-color: black;
+	padding: 20px;
+	width: 99%;
+	border-radius: 0 0px 110px 0px;
+}
+
+
+.bgSixth {
+	background: url("../image/cake4.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 100%;
+	height: 800px;
+}
+
+.sexthSecHead1 p {
+	margin-top: 270px;
+	font-size: 30px;
+}
+
+.sexthSecHead2 p {
+	font-size: 34px;
+	font-family: "Playfair Display";
+}
+
+
+.bgSeventh {
+	background: url("../image/banner3.png") no-repeat;
+	background-size: cover;
+	height: auto;
+	width: 100%;
+}
+
+.seventhSecRow2 {
+	background: white;
+	height: auto;
+	border-radius: 90px 0 0 90px;
+}
+
+.seventhSecRow2Col2 {
+	margin: 0;
+	padding: 0;
+}
+
+.cardHeader2 {
+	margin-top: 100px;
+}
+
+.cardHeader2 p {
+	font-size: 14px;
+}
+
+.cardBody2 img {
+	height: 120px;
+	margin-top: 0;
+	padding-top: 0;
+}
+
+.card-body figcaption {
+	font-weight: 500;
+}
+
+.card-footer .plus2 {
+	border-radius: 0px 50px 50px 0px;
+	background-color: #C58F76;
+	margin: 0;
+	width: 20px;
+	padding: 3px;
+	margin-left: 5px;
+}
+
+
+.card-footer .minus2 {
+	border-radius: 50px 0px 0px 50px;
+	background-color: #C58F76;
+	margin: 0;
+	width: 20px;
+	padding: 3px;
+	margin-right: 5px;
+}
+
+
+.buyNowDiv {
+	max-width: 150px;
+	min-width: 100px;
+}
+
+.buyNowbtn {
+	width: 100%;
+	padding: 3px;
+	border-radius: 50px;
+	box-shadow: 0px 2px 10px black;
+}
+
+.seventSechHead3 p {
+	font-size: 22px;
+	font-weight: 100;
+	margin-bottom: 20px;
+}
+
+.lorem {
+	width: 220px;
+}
+
+.lorem p {
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.seventSechHead4 p {
+	font-size: 15px;
+	font-weight: bold;
+	margin-bottom: 0;
+}
+
+.buyNowbtn2 {
+	max-width: 150px;
+	background-color: #C58F76;
+	color: #FFF;
+	box-shadow: none;
+}
+
+.eighthSection {
+	background-color: #D3D0CE;
+	height: auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+}
+
+.eighthSectionRow {
+	display: flex;
+	justify-content: center;
+}
+
+.logo2 {
+	font-family: "Roboto Slab";
+	font-size: 100px;
+	color: white;
+	display: flex;
+	padding-top: 100px;
+	justify-content: center;
+	height: 50%;
+	padding-bottom: 0px;
+	margin-bottom: 0;
+	align-items: center;
+}
+
+
+.lorem1 p {
+	font-size: 10px;
+	font-family: Arial, Helvetica, sans-serif;
+	width: 220px;
+}
+
+.ninthSec {
+	width: 70vw;
+	background-color: rgb(255, 255, 255);
+	margin-top: 230px;
+	border-radius: 100px;
+	box-shadow:
+		-20px 10px 30px rgba(0, 0, 0, 0.15),
+		-20px 20px 60px rgba(0, 0, 0, 0.1);
+}
+
+.ninthSecRowCol2 img {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 655px;
+	object-fit: cover;
+	margin-left: 15px;
+	border-radius: 0px 100px 100px 0px;
+}
+
+.ninthSecRowCol1 {
+	padding: 50px;
+}
+
+.colorTextDiv p {
+	color: #C58F76;
+}
+
+.footerSec {
+	height: auto;
+	background-color: #C58F76;
+	width: 88%;
+	border-radius: 75px 75px 0px 0px;
+	box-shadow: 0px 25px 40px #69696991;
+}
+
+.footerSec .logo {
+	height: 20%;
+}
+
+.footerSec .logo .singleLine {
+	padding: 0;
+	margin: 0;
+}
+
+.footerBody {
+	height: 240px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.rightFooter {
+	padding: 40px;
+	padding-left: 110px;
+}
+
+.leftFooter {
+	padding-left: 110px;
+}
+
+@media screen and (max-width: 480px) {
+
+	html,
+	body {
+		max-width: 100%;
+		overflow-x: hidden;
+	}
+
+	.logo {
+		font-size: 34px;
+		padding-top: 20px;
+		text-align: center;
+	}
+
+	header {
+		height: 150px;
+		margin-bottom: 60px;
+	}
+
+	.head {
+		margin-top: 30px;
+	}
+
+	.bg2img {
+		max-width: 320px;
+	}
+
+	.nextDiv button {
+		margin-top: 10px;
+		min-width: 150px;
+	}
+
+	.secSection {
+		margin-top: 100px;
+	}
+
+	.secSectionCol2 {
+		min-height: 250px;
+		background-size: contain;
+		order: -1;
+		margin-left: 0;
+		padding: 0;
+	}
+
+	.forthSecCol {
+		margin-left: 10px;
+	}
+
+	.bgFourth {
+		height: 800px;
+		object-fit: cover;
+	}
+
+	.fifthSection {
+		margin-top: 100px;
+	}
+
+	.fifthSectionCol1 img {
+		height: 150px;
+		width: 600px;
+		margin-left: 10px;
+	}
+
+
+	.logo1 h2 {
+		font-size: 35px;
+	}
+
+	.logo1 p {
+		font-size: 20px;
+	}
+
+	.itemList {
+		margin-top: 0;
+	}
+
+	.menuFooter p {
+		padding-bottom: 25px;
+	}
+
+	.bgSixth {
+		background-position: center;
+		margin-left: 10px;
+		margin-right: 0;
+		padding-right: 0;
+
+	}
+
+	.cardHeader2 {
+		margin-top: 20px;
+		padding-top: 0;
+	}
+
+	.card {
+		background-color: #fff;
+	}
+
+
+	.seventhSecRow2Col1 {
+		background: url("../image/shakebg.png") no-repeat;
+	}
+
+	.seventhSecRow2Col2 {
+		margin-left: 50px;
+	}
+
+	.seventhSecRow2 {
+		height: auto;
+		background-color: #fff;
+		margin-top: 0px;
+		padding-bottom: 60px;
+	}
+
+	.eighthSection {
+		min-height: 600px;
+		height: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.eighthSectionRow {
+		min-height: 400px;
+		height: auto;
+		/* width: 100%	; */
+		margin-top: 50px;
+		/* background: yellow; */
+	}
+
+	.eighthSectionRow .sechead2 p {
+		font-size: 20px;
+	}
+
+	.logo2 {
+		font-size: 50px;
+		padding-top: 0;
+		height: 30%;
+		margin-top: 60px;
+	}
+
+	.ninthSecRowCol2 {
+		display: none;
+	}
+
+	.ninthSec {
+		width: 100%;
+		border-radius: 90px;
+		background: url("../image/cakebg3.png") no-repeat center;
+		background-size: cover;
+		margin-top: 40px;
+	}
+
+	.rightFooter {
+		order: -1;
+		display: flex;
+		flex-direction: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+		margin-bottom: 20px;
+	}
+
+	.footerSec .logo {
+		height: 13%;
+	}
+
+	.rightFooter {
+		padding: 40px;
+		padding-left: 40px;
+	}
+
+	.leftFooter {
+		padding-left: 40px;
+	}
+
+	.singleLine {
+		font-size: 12px;
+	}
+
+	.dropNavList {
+		background-color: #C58F76;
+		padding: 10px;
+		border-radius: 20px;
+		margin-top: 10px;
+	}
+}

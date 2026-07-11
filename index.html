@@ -1,0 +1,506 @@
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>layout convert </title>
+    <link href="css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="css/style.css" rel="stylesheet" />
+
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+    </style>
+
+</head>
+
+<body>
+    <div class="container-fluid bg_container p-0 ">
+        <header class="container">
+            <div class="col-md-4 col-sm-12 col-12 mx-auto me-auto logo">
+                <span>Deli // Break </span>
+            </div>
+
+            <div class="col-md-9 mx-auto me-auto">
+                <nav class="navbar navbar-expand-lg navbar-light  rounded" aria-label="Eleventh navbar example">
+                    <div class="container-fluid justify-content-end dropdown-header mt-0 pt-0">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false"
+                            aria-label="Toggle navigation">
+                            <span class="navbar"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    fill="currentColor" class="bi bi-menu-up" viewBox="0 0 16 16">
+                                    <path
+                                        d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793zM1 9V6h14v3zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5" />
+                                </svg></span>
+                        </button>
+                        <div class="collapse navbar-collapse dropNavList" id="navbarsExample09">
+                            <ul class="navbar-nav   me-auto mb-2 mb-lg-0">
+                                <li class="nav-item">
+                                    <a class="nav-link" aria-current="page" href="#">Beverages</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link " href="#">Deserts</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Promotions</a>
+                                </li>
+
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Star Program</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Branches</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">Contact</a>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+        <!-- Second section start icecream form -->
+        <div class="container-fluid">
+            <div class="row justify-content-end">
+                <div class="col-sm-12 col-md-8 px-5 bg_secondrow ">
+                    <div class="head">
+                        <h2>Place your order now</h2>
+                    </div>
+                    <div class="secHead">
+                        <p>Free Shipping on purchases <br> of $15 or more</p>
+                    </div>
+                    <div class="selectOption">
+                        <select class="form-select">
+                            <option value="1">Shake</option>
+                            <option value="2">Chocolate Thickshake</option>
+                            <option value="3">Ferrero Rocher Shake</option>
+                        </select>
+                    </div>
+                    <div class="selectOption">
+                        <select class="form-select">
+                            <option selected value="1">Extra Topping</option>
+                            <option value="whipped_cream">Whipped Cream</option>
+                            <option value="choc_chips">Chocolate Chips</option>
+                            <option value="crushed_oreos">Crushed Oreos</option>
+                            <option value="caramel">Caramel Drizzle</option>
+                        </select>
+                    </div>
+                    <div class="nextDiv">
+                        <button class="btn">Next</button>
+                    </div>
+                    <div class="firstPara">
+                        <p>Know our promotions <br> Pastry courses</p>
+                    </div>
+                    <div class="secPara">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. <br>Molestiae ipsum tempore
+                            voluptatibus eveniet. Tempora </p>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-4 mt-4 bg2img pe-0 px-0 pe-0">
+                    <div class="card mt-3 bg-transparent border border-0 mx-3 px-5">
+                        <div class="card-header bg-transparent border-0  m-0 p-0 pt-2">
+                            <p>Acompany your drink <br /> with a deli dessert:</p>
+                        </div>
+
+                        <div class="card-body p-0">
+                            <img src="image/cake1.png" />
+                            <figcaption class="p-2"><a href="" class="link-dark text-start">Add to card</a></figcaption>
+                        </div>
+
+                        <div class="card-footer text-body-secondary bg-transparent border-0">
+                            <button class="btn badge minus">-</button>1<button class="btn badge plus">+</button>
+                        </div>
+
+                        <div class="card-body p-0 pt-4	">
+                            <img src="image/cake2.png" />
+                            <figcaption class="p-2"><a href="" class="link-dark text-center">Add to card</a>
+                            </figcaption>
+                        </div>
+
+                        <div class="card-footer text-body-secondary bg-transparent border-0">
+                            <button class="btn badge minus">-</button>1<button class="btn badge plus">+</button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Second section end icecream form -->
+        <!-- Third section start icecream form -->
+        <div>
+            <div class="container secSection">
+                <div class="row">
+                    <div class="col-md-6 ps-5 secSectionCol1">
+                        <div class="head">
+                            <h2>Sign up for the <br> Star Program</h2>
+                        </div>
+                        <div class="secHead2">
+                            <p>Enjoy your favorite your <br> favorite drinks.</p>
+                        </div>
+                        <div class="w-75">
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Explicabo asperiores tempora
+                                pariatur nisi est dolore at enim! Amet officiis voluptatum laborum qui, reprehenderit at
+                                eveniet natus aperiam facere in harum sequi?</p>
+                        </div>
+                        <div class="nextDiv">
+                            <button class="btn w-25">Join</button>
+                            <button class="btn w-25">Login</button>
+                        </div>
+                        <div class="firstPara2">
+                            <p>Your birthday drink <br> Exclusive offers <br>Select customer card.</p>
+                        </div>
+
+                        <div class="secPara w-75">
+                            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At, quod, , ipsum dolor sit
+                                amet consectetur adipisicing elit. At, quod!!</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 secSectionCol2">
+                        <img src="./image/banner.png" alt="iceCream">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Third section end icecream form -->
+        <!-- single line  -->
+        <div class="container text-center w-100 p-5 fw-bolder singleLine">
+            <p>Quality And Taste // Guaranted</p>
+        </div>
+
+        <!-- fourth section start -->
+        <div class="container-fluid p-0 m-0">
+            <div class="row bgFourth m-0">
+                <div class="col-md-6 offset-md-6  forthSecCol pe-0">
+                    <div class="head3">
+                        <p>Free <br> birthday <br> drink</p>
+                    </div>
+
+                    <div class="head4">
+                        <p>How does it work?</p>
+                    </div>
+                    <div class="head5">
+                        <p>Sign up for <br> the Star Program:</p>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div>
+                            <input type="text" class="form-control" name="dob" placeholder="Date of birth">
+                        </div>
+                        <div class="signupDiv">
+                            <button class="signupBtn">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- fourth section end -->
+
+        <!-- fifth section start -->
+        <div class="container fifthSection p-0">
+            <div class="row">
+                <div class="col-md-6  fifthSectionCol1 m-0 p-0">
+                    <img src="./image/cake3.png" alt="cakePicture">
+                </div>
+                <div class="col-md-6  fifthSectionCol2 m-0 p-0">
+                    <div class="logo1">
+                        <h2>Deli//Break</h2>
+                        <p>Desserst menu</p>
+                    </div>
+                    <div class="menuBody">
+                        <ul>
+                            <li>
+                                <div class="menuHeader">
+                                    <span class="itemList">Double Chocolate cake</span> <span
+                                        class="spanPrice">$8</span>
+                                </div>
+                                <p class="spanLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore?
+                                </p>
+                            </li>
+                            <li>
+                                <div class="menuHeader">
+                                    <span class="itemList">Cookie with sprinkles</span> <span
+                                        class="spanPrice">$12.5</span>
+                                </div>
+                                <p class="spanLorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore?
+                                </p>
+                            </li>
+                            <li>
+                                <div class="menuHeader">
+                                    <span class="itemList">mille-feuille cake with orange</span> <span
+                                        class="spanPrice">$12</span>
+                                </div>
+                                <p class="spanLorem">Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Labore?</p>
+                            </li>
+                            <li>
+                                <div class="menuHeader">
+                                    <span class="itemList">Brownnie with ice-cream</span> <span
+                                        class="spanPrice">$9</span>
+                                </div>
+                                <p class="spanLorem">Lorem
+                                    ipsum dolor sit amet consectetur adipisicing elit. Labore?</p>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="menuFooter  text-center text-light">
+                        <p class="fw-bold fs-5">Shakes & beverage menu</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Sixth section start -->
+        <div class="container-fluid pe-0 m-0">
+            <div class="row bgSixth m-0 pe-0">
+                <div class="col-md-6 offset-md-2 d-flex flex-column  pe-0">
+                    <div class="sechead2 sexthSecHead1">
+                        <p>Do you already know<br>our famous orange <br> mille-feuille cake?</p>
+                    </div>
+
+                    <div class="head4 sexthSecHead2">
+                        <p>visit us at any of <br> our branches:</p>
+                    </div>
+                    <div class="signupDiv">
+                        <button class="signupBtn">Find a branch</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- sixth section end -->
+
+        <!-- seventh section start -->
+        <div class="container-fluid bgSeventh p-0 m-0 h-auto">
+            <div class="row p-0 m-0">
+                <div class="col-12 col-md-7 offset-md-5 seventhSecCol1">
+
+                    <span class="fs-1 mx-5">Meet the Specials</span>
+
+                    <div class="row  seventhSecRow2">
+                        <div class="col-md p-5 m-0   seventhSecRow2Col1">
+                            <div class="buyNowDiv">
+                                <button class="btn buyNowbtn btn-dark">Buy Now</button>
+                            </div>
+
+                            <div class="head4 sexthSecHead2 mt-2">
+                                <p>Everyone's <br> favorite shake!</p>
+                            </div>
+
+                            <div class="sechead2 seventSechHead3">
+                                <p>Chocolate milk shake</p>
+                            </div>
+
+                            <div class="lorem">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi vel qui modi animi
+                                    nemo
+                                    quo praesentium illum magni, natus a. lorem20</p>
+                            </div>
+                            <div class="seventSechHead4">
+                                <p>+ Extra cookies</p>
+                                <p>+ Extra Cream</p>
+                                <p>+ Chocolate bars</p>
+                            </div>
+
+                            <div class="mt-2 love">
+                                <button class="btn buyNowbtn buyNowbtn2 d-inline">Buy Now</button>
+                                <span class="p-2 d-inline-block mx-4">
+                                    <div class="card-footer d-inline text-body-secondary bg-transparent border-0 mt-1">
+                                        <button class="btn badge minus p-2">-</button>
+                                        <p class="d-inline-block fs-5 mx-1">1</p><button
+                                            class="btn badge plus p-2">+</button>
+                                    </div>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="col-md   seventhSecRow2Col2">
+                            <div class="card mt-3 bg-transparent border border-0 mx-0 px-3">
+                                <div class="card-header cardHeader2 bg-transparent border-0  px-0">
+                                    <p>Acompany your drink <br /> with a deli dessert:</p>
+                                </div>
+
+                                <div class="card-body cardBody2 p-0">
+                                    <img src="image/cake1.png" />
+                                    <span class="p-2 d-inline-block mx-4"><a href="" class="link-dark ">Add to my
+                                            order</a>
+                                        <div class="card-footer text-body-secondary bg-transparent border-0 mt-1">
+                                            <button class="btn badge minus2">-</button>1<button
+                                                class="btn badge plus2">+</button>
+                                        </div>
+                                    </span>
+
+                                </div>
+
+                                <div class="card-body cardBody2 p-0 mt-4">
+                                    <img src="image/cake2.png" />
+                                    <span class="p-2 d-inline-block mx-4"><a href="" class="link-dark ">Add to my
+                                            order</a>
+                                        <div class="card-footer text-body-secondary bg-transparent border-0 mt-1">
+                                            <button class="btn badge minus2">-</button>1<button
+                                                class="btn badge plus2">+</button>
+                                        </div>
+                                    </span>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- seventh section end -->
+
+        <!-- eighth section start -->
+        <div class="container-fluid eighthSection ">
+            <div class="row eighthSectionRow">
+                <div class="col-md-6">
+                    <div class="logo2">
+                        <span>Deli // Break </span>
+                    </div>
+                    <div class="sechead2  text-center">
+                        <p>Enjoy the benefits of the <br> star program</p>
+                    </div>
+                    <div class="signupDiv text-center mx-auto my-auto mt-5 w-50">
+                        <button class="btn  signupBtn  ">Sign up now</button>
+                    </div>
+                    <div class="lorem1 d-flex justify-content-center  text-center mx-auto my-auto mt-4">
+                        <p class="mt-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae nam dicta officia
+                            laudantium consequatur ad libero deserunt maiores laboriosam!.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- eighth section end -->
+
+        <!-- ninth section start -->
+        <div class="container-fluid  ninthSec">
+            <div class="row m-0 p-0">
+                <div class="col-md-6 ninthSecRowCol1">
+                    <div class="head4 sexthSecHead2 ">
+                        <p>Pastry and milkshake <br> courses</p>
+                    </div>
+
+                    <div class="sechead2">
+                        <p>Groups of 10 people. <br> Saturday from 9 to 11 a.m.</p>
+                    </div>
+                    <div class="lorem w-75 mt-4">
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptatibus et, illum esse
+                            voluptatum culpa maxime. Aut ipsam quas tempora quos delectus id? Lorem ipsum dolor sit amet
+                            consectetur adipisicing elit. Aperiam, soluta? Lorem ipsum dolor sit amet.</p>
+                    </div>
+                    <div class="signupDiv">
+                        <button class="signupBtn badge">Reserve your place</button>
+                    </div>
+                    <div class="mt-5">
+                        <p class="fw-bolder">$15 per class or $60 for the entire course. <br>Includes materials</p>
+                    </div>
+                    <div class="colorTextDiv">
+                        <p class="text-decoration-underline fw-bolder">More information here or call 432 5778</p>
+                    </div>
+                    <div class="lorem1">
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis, qui. Lorem ipsum</p>
+                    </div>
+                </div>
+                <div class="col-md-6 ninthSecRowCol2 m-0 p-0">
+                    <img src="./image/cake5.png" alt="cake">
+                </div>
+            </div>
+        </div>
+        <!-- ninth section end -->
+        <div class="container text-center w-100 p-5 fw-bolder singleLine">
+            <p>Quality And Taste // Guaranted</p>
+        </div>
+
+        <!-- Footer Section Start -->
+        <footer class="container footerSec">
+            <div class="col-md-4 offset-md-6 col-sm-12 col-12 mx-auto me-auto logo">
+                <span>Deli // Break </span>
+            </div>
+            <div class="container text-center w-100 fw-bolder singleLine">
+                <p>Quality And Taste // Guaranted</p>
+            </div>
+
+            <!-- Social Media Icons -->
+            <div class="co-md-12 mb-3  mx-md-4 px-md-5 ">
+                <i class="bi bi-instagram mx-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                        <path
+                            d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                    </svg></i>
+
+                <i class="bi bi-facebook mx-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                        <path
+                            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                    </svg></i>
+                <i class="bi bi-youtube mx-1"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-youtube" viewBox="0 0 16 16">
+                        <path
+                            d="M8.051 1.999h.089c.822.003 4.987.033 6.11.335a2.01 2.01 0 0 1 1.415 1.42c.101.38.172.883.22 1.402l.01.104.022.26.008.104c.065.914.073 1.77.074 1.957v.075c-.001.194-.01 1.108-.082 2.06l-.008.105-.009.104c-.05.572-.124 1.14-.235 1.558a2.01 2.01 0 0 1-1.415 1.42c-1.16.312-5.569.334-6.18.335h-.142c-.309 0-1.587-.006-2.927-.052l-.17-.006-.087-.004-.171-.007-.171-.007c-1.11-.049-2.167-.128-2.654-.26a2.01 2.01 0 0 1-1.415-1.419c-.111-.417-.185-.986-.235-1.558L.09 9.82l-.008-.104A31 31 0 0 1 0 7.68v-.123c.002-.215.01-.958.064-1.778l.007-.103.003-.052.008-.104.022-.26.01-.104c.048-.519.119-1.023.22-1.402a2.01 2.01 0 0 1 1.415-1.42c.487-.13 1.544-.21 2.654-.26l.17-.007.172-.006.086-.003.171-.007A100 100 0 0 1 7.858 2zM6.4 5.209v4.818l4.157-2.408z" />
+                    </svg></i>
+            </div>
+            <div class="row">
+                <div class="col-md-6  leftFooter">
+                    <ul class="navbar-nav  me-auto mb-2 mb-lg-0 footerBody">
+                        <li class="nav-item w-25">
+                            <a class="nav-link" aria-current="page" href="#">Beverages</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link " href="#">Deserts</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Promotions</a>
+                        </li>
+
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Star Program</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Branches</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Contact</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Galary</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Blog</a>
+                        </li>
+                        <li class="nav-item w-25">
+                            <a class="nav-link" href="#">Star Program</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-6  rightFooter">
+                    <div class="head5">
+                        <p>Sign up for <br> our newsletter:</p>
+                    </div>
+                    <div>
+                        <div>
+                            <input type="text" class="form-control" name="name" placeholder="Name">
+                        </div>
+                        <div>
+                            <input type="email" class="form-control" name="email" placeholder="Email">
+                        </div>
+                        <div class="signupDiv">
+                            <button class="signupBtn badge bg-dark">Sign up</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Footer Section End -->
+
+    </div>
+    <!-- Container end -->
+</body>
+
+</html>
+<script src="bootstrap.min.js"></script>
